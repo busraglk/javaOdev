@@ -9,6 +9,7 @@ public class Main {
 		student.setStudentNumber(123);
 		student.setFirstName("ogrenciAd");
 		student.setLastName("ogrenciSoyad");
+		student.setEmail("busra@busra.com");
 		userManager.add(student);
 		userManager.update(student);
 		
@@ -16,7 +17,9 @@ public class Main {
 		instructor.setFirstName("Engin");
 		instructor.setLastName("Demirog");
 		instructor.setDescription("Kral hoca");
+
 		userManager.add(instructor);	
+		userManager.delete(instructor);
 		
 	}
 
