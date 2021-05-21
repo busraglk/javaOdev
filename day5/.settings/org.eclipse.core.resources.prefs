@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/day5hw/Main.java=UTF-8
+encoding//src/day5hw/core/verifications/EmailVerificationManager.java=UTF-8
+encoding//src/day5hw/core/verifications/SmsVerificationManager.java=UTF-8
